@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: rgb(62, 86, 16);
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+body{
+    height: 120vh;
+    background-color: rgb(71, 206, 206);
+    display: grid;
+    place-content: center;
+}
+i{
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    color: darkgreen;
+    border-radius: 3px;
+}
