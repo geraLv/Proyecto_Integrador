@@ -1,0 +1,10 @@
+div{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+form{
+    display:grid;
+    grid-template-columns:  6fr;
+    grid-template-rows: 5fr;
+}
