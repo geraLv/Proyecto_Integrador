@@ -17,6 +17,10 @@ body{
     font-weight: 500;
 }
 .grid-container{
+    background:url(/assets/img/pexels-skylar-kang-6045328.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: grid;
     gap:20px;
     grid-template: 
@@ -27,7 +31,7 @@ body{
     "footer" 80px;
     .header{
         grid-area: header;
-        background-color:#3c515d;
+        background-color:#313332;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -69,24 +73,37 @@ body{
         display: flex;
         flex-direction: column;
         grid-area: navbar;
-        background-color: #40957f;
-        .caja{
-            border: black solid 2px;
-            width: 100%;
-            height: 40px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            gap:     10px;
-        }
+        justify-content: space-around;
+        padding: 40px;
+        gap: 30px;
+        background-color: #f1f1f1;
+            .cajon{
+                padding: 30px;
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .caja{
+                    text-align: center;
+                    background-color: #d5d5d5;
+                    border: black solid 2px;
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 10px;
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    color: #313332;
+                }
+            }
     }
     .sidebar{
         grid-area: sidebar;
-        background-color: #3d6868;
+        background-color: #313332;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         .element{
-            background-color: #3d6868;
+            background-color: #313332;
             display: flex;
             justify-content: space-around;
             flex-direction: column;
@@ -95,7 +112,7 @@ body{
                 text-decoration: none;
                 color: black;
                 height: 60px;
-                background-color: #a7c686;
+                background-color: #d5d5d5;
                 border-radius: 10px;
                 border: darkcyan solid 2px;
                 margin: 10px;
@@ -107,7 +124,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: #a7c686;
+                background-color: #d5d5d5;
                 border-radius: 10px;
                 border: darkcyan solid 2px;
                 margin: 10px;
@@ -120,7 +137,7 @@ body{
         align-items: center;
         flex-direction: column;
         grid-area: main;
-        background-color: #fcee8c;
+        background-color: #f1f1f1;
         div {
             display: flex;
             justify-content: space-around;
@@ -138,7 +155,7 @@ body{
     }
     .footer{
         grid-area: footer;
-        background-color: #3d6868;
+        background-color: #313332;
         height: 250px;
     }
     @media (min-width:768px) {

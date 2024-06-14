@@ -39,7 +39,7 @@ body{
         grid-area: header;
         background-color: #313332;
         height: 100px;
-        color: white;
+        color: white;   
         .pagina{
             width: 60%;
             display: flex;
